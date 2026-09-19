@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+    --color-blackBG: #0E0E0E;
+
+    --color-blackActiveButton: #201F1F;
+
+    --color-themeLigthblueIcon: #ADC6FF;
+
+    --color-GrayText: #C2C6D6;
+
+    --font-SubjectFont: "SubjectFont", "JetBrains Mono", monospace; 
+}
+
+@font-face {
+    font-family: "SubjectFont";
+    src: url("./assets/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
