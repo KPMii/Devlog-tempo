@@ -1,6 +1,6 @@
-import Sidebar from "../components/sidebar"
+import Sidebar from "../components/Sidebar"
 
-function Tasks() {
+function Github() {
   return (
     <div className='flex min-h-screen'>
       <Sidebar/>
@@ -9,4 +9,4 @@ function Tasks() {
   )
 }
 
-export default Tasks
+export default Github

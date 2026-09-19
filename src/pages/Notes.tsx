@@ -1,13 +1,12 @@
 import Sidebar from "../components/sidebar"
 
-function Home() {
-
+function Notes() {
   return (
     <div className='flex min-h-screen'>
       <Sidebar/>
-<p>Hello</p>
+
     </div>
   )
 }
 
-export default Home
+export default Notes
