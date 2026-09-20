@@ -1,10 +1,16 @@
-import Sidebar from "../components/Sidebar"
+import Header from "../components/Header"
+import Sidebar from "../components/sidebar"
 
 function Project() {
   return (
     <div className="flex min-h-screen">
-        <Sidebar/>
-        Project
+      <Sidebar />
+      <div className="flex flex-col flex-1">
+        <Header />
+        <main>
+          Project
+        </main>
+      </div>
     </div>
   )
 }

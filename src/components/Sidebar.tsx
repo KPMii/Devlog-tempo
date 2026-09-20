@@ -24,7 +24,7 @@ function Sidebar() {
 ];
 
   return (
-    <aside className="bg-blackBG w-55  border-gray-200 border-r-3">
+    <aside className="bg-blackBG w-55  border-gray-200 border-r">
       {/* Header */}
       <div className="flex flex-col gap-2 pt-5 ps-1 h-screen">
         <div>
