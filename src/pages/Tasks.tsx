@@ -8,7 +8,7 @@ function Tasks() {
       <div className="flex flex-col flex-1">
         <Header />
         <main>
-          Dashboard
+          Tasks
         </main>
       </div>
     </div>
